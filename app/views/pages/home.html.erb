@@ -2,9 +2,26 @@
 <div class ='jumbotron'>
 <h1 align='center'>Welcome To My ROR Training App</h1>
 <p align='center'>Good Place for ROR Training</p>
-
-<p align='center'><%= link_to "Sign Up" ,"#" %></p>
-
-<p align='center'><a href= "#" > Sign In </a></p>
-
+</div>
+<p align='center'><%= link_to "Sign Up" ,new_user_registration_path %></p>
+<p align='center'><%= link_to "Sign In" ,new_user_session_path %></p>
+<nav>
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+     </li>
+     </ul>
+</a>
+</nav>
 </div>
