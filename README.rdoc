@@ -1,4 +1,4 @@
-# Welcome to rortraining App
-[*This is my rortraining App*]
+Welcome to ROR Training App
+[*This is my ROR Training App*]
 
 by[*Johnnafe Gadiano*]
